@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".activity.LoginActivity"
+                android:padding="15dp">
+
+    <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="152dp"
+            android:layout_height="119dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/photo" />
+
+    <TextView
+            android:id="@+id/app_name1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="怕呀屁股"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/img_logo"/>
+    <TextView
+            android:id="@+id/app_name2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="快递清单系统"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/app_name1"
+    />
+    <TextView
+            android:id="@+id/app_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="v1.0"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/app_name2"
+    />
+
+    <EditText
+            android:id="@+id/textUserName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="用户名"
+            android:textColor="#FFAD33"
+            android:textSize="16sp"
+            android:background="@drawable/bg_username"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:drawableLeft="@drawable/icon_user"
+            android:drawablePadding="5dp"
+            android:maxLines="1"
+            android:layout_below="@id/app_version"
+            android:layout_marginTop="50dp"
+            android:text="111"
+    >
+
+    </EditText>
+
+    <EditText
+            android:id="@+id/textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="密码"
+            android:inputType="textPassword"
+            android:textColor="#FFAD33"
+            android:textSize="16sp"
+            android:background="@drawable/bg_username"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_below="@id/textUserName"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/icon_password"
+            android:drawablePadding="5dp"
+            android:maxLines="1"
+            android:text="111"
+
+    >
+
+    </EditText>
+
+    <EditText
+            android:id="@+id/textTryCode"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:hint="验证码"
+            android:textColor="#FFAD33"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/icon_trycode"
+            android:drawablePadding="5dp"
+            android:background="@drawable/bg_username"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_below="@id/textPassword"
+    />
+    <LinearLayout
+            android:id="@+id/ll_tryCode"
+            android:layout_marginTop="5dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/textTryCode">
+        <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/tryCodeImg"
+                android:layout_weight="1"/>
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/tryCodeBtn"
+                android:layout_weight="1"
+                android:text="看不清，换一张"/>
+    </LinearLayout>
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/ll_rememberMe"-->
+    <!--        android:layout_marginTop="5dp"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:layout_gravity="center_horizontal"-->
+    <!--        android:gravity="center"-->
+    <!--        android:layout_below="@id/ll_tryCode">-->
+
+    <!--        <CheckBox-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:id="@+id/remberMe"-->
+    <!--            />-->
+    <!--        <TextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:gravity="center"-->
+    <!--            android:text="记住我"/>-->
+
+    <!--    </LinearLayout>-->
+    <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_tryCode"
+            android:background="@drawable/bg_btn4"
+            android:layout_marginTop="20dp"
+            android:text="登陆"
+            android:textSize="20sp"
+    >
+
+    </Button>
+</RelativeLayout>

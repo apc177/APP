@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_maintenancelist">
+
+    <fragment
+        android:id="@+id/navigation_maintenancelist"
+        android:name="com.newedu.equipmentwarranty.activity.fragment.MaintenanceListFragment"
+        android:label="报修列表"
+        tools:layout="@layout/fragment_maintenancelist" />
+
+    <fragment
+        android:id="@+id/navigation_addmaintenance"
+        android:name="com.newedu.equipmentwarranty.activity.fragment.AddMaintenanceFragment"
+        android:label="添加报修"
+        tools:layout="@layout/fragment_addmaintenance" />
+
+
+</navigation>

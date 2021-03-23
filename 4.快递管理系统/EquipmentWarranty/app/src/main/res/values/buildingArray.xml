@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="building">
+        <item>选择地区</item>
+        <item>2号</item>
+        <item>3号</item>
+        <item>4号</item>
+        <item>5号</item>
+    </string-array>
+</resources>

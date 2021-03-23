@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+
+    <environments default="dev">
+
+        <!--一个环境：开发 、生成环境、测试环境	-->
+        <environment id="dev">
+            <!--	事务管理器：JDBC-->
+            <transactionManager type="JDBC"/>
+            <!--	POOLED:基于连接池的形式配置数据源-->
+            <dataSource type="POOLED">
+                <property name="driver"
+                          value="com.mysql.jdbc.Driver"/>
+                <property name="url"
+                          value="jdbc:mysql://127.0.0.1:3306/513?"/>
+                <property name="username" value="porn513"/>
+                <property name="password" value="porn513"/>
+
+
+                <property name="poolPingEnabled" value="true"/>
+                <property name="poolPingQuery" value="select now() from classes limit 1"/>
+                <property name="poolPingConnectionsNotUsedFor" value="10000"/>
+
+            </dataSource>
+        </environment>
+
+
+
+
+
+
+
+    </environments>
+
+    <!--	注册各个 Mapper-xml文件-->
+
+    <mappers>
+
+        <mapper resource="dao/Mysql.xml"/>
+
+    </mappers>
+</configuration>

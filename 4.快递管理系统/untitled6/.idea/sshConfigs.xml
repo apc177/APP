@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="192.168.1.6" id="40db0c90-92c8-4e88-9d8c-3d030a1ce0bd" port="22" customName="qqq" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="192.168.1.6" id="34e643dd-e31c-4988-a1d9-c590e5e073a3" port="22" customName="qqq" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="192.168.1.6" id="56382c42-bbfe-4b2e-aae4-65e482713022" port="22" customName="qqq" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="192.168.1.6" id="b2a71cac-5d06-48e3-a9d2-1c89dd456ec5" port="22" customName="qqq" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="192.168.1.6" id="09f17e15-c3f8-4c19-ae8e-8fcc1695e69a" port="22" customName="qqq" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="192.168.1.6" id="998d1cef-2885-4f53-9fed-b4901e5e1583" port="22" customName="qqq" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="192.168.1.6" id="e466b8d0-1d55-4c62-ac5c-98ba012b1eb9" port="22" customName="qqq" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="192.168.1.6" id="4bd2996e-a224-4fa4-b5a8-d46612d1efec" port="22" customName="qqq" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="192.168.1.6" id="b98ea584-016a-43b9-833d-08889078a262" port="22" customName="qqq" nameFormat="CUSTOM" />
+    </configs>
+  </component>
+</project>

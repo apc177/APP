@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/MyWEB"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="root"
+              password="513nbnb"
+              maxIdle="30"
+              maxWait="10000"
+              maxActive="100"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://39.106.186.134:3306/MyWEB?serverTimezone=GMT"
+              logAbandoned="true" />
+    crossContext="true"
+
+    reloadable="true"
+</Context>

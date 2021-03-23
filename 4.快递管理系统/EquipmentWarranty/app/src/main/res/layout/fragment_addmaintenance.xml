@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:layout_gravity="center">
+
+    <EditText
+            android:id="@+id/maintenanceSN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bg_username"
+            android:hint="寄件人"
+            android:textSize="20sp" />
+    <Spinner
+            android:id="@+id/builing_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/building"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/spinner_border"
+    />
+    <Spinner
+            android:id="@+id/floor_spinners"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/floor"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/spinner_border"
+    />
+    <EditText
+            android:id="@+id/tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bg_username"
+            android:hint="收件人电话"
+            android:textSize="20sp" />
+
+    <EditText
+            android:id="@+id/company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bg_username"
+            android:hint="公司"
+            android:textSize="20sp" />
+    <EditText
+            android:id="@+id/addressee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bg_username"
+            android:hint="收件人"
+            android:textSize="20sp" />
+
+    <EditText
+            android:id="@+id/deviceLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bg_username"
+            android:hint="详细地址"
+            android:textSize="20sp" />
+
+    <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:hint="拍照上传"
+            android:layout_weight="1"
+            android:id="@+id/buildimg"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:src="@drawable/photo"
+    />
+
+    <EditText
+            android:layout_marginTop="5dp"
+            android:id="@+id/description"
+            android:textSize="20sp"
+            android:hint="备注"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:minLines="5"
+            android:inputType="textMultiLine"
+            android:background="@drawable/bg_username"
+    />
+    `<Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/submitBtn"
+        android:textSize="30sp"
+        android:text="确定"/>
+</LinearLayout>

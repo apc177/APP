@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:paddingLeft="5dp"
+              android:paddingRight="5dp">
+    <ImageView
+            android:id="@+id/buildImg"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY" />
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="5dp">
+        <TextView
+                android:id="@+id/deviceName"
+                android:text="公司名称："
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@android:color/darker_gray" />
+        <TextView
+                android:id="@+id/building"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收货地："
+                android:textSize="16sp"
+                android:textColor="@android:color/darker_gray" />
+        <TextView
+                android:id="@+id/floor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收货人："
+                android:textSize="16sp"
+                android:textColor="@android:color/darker_gray" />
+        <TextView
+                android:id="@+id/deviceLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="配送员信息："
+                android:textSize="16sp"
+                android:textColor="@android:color/darker_gray" />
+        <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="备注："
+                android:textSize="16sp"
+                android:textColor="@android:color/darker_gray" />
+        <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="配送时间：xxxx-xx-xx 00:00:00"
+                android:textSize="16sp"
+                android:textColor="@android:color/darker_gray" />
+    </LinearLayout>
+
+</LinearLayout>
